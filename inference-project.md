@@ -1,3 +1,11 @@
+Inferential Statistics Project
+==============================
+
+
+A study on Divorce rates among different ethnicities in United States
+---------------------------------------------------------------------
+
+
 Introduction:
 -------------
 
@@ -60,7 +68,7 @@ The data collection is randon as a result of which we can generalize the finding
 Part 2: Research question
 -------------------------
 
-**Studying divorce rates among the White and the Black population in America? **
+**Studying divorce rates among the White and the Black population in America?**
 
 In this project, i'm interested in finding out whether there is a significant difference in the divorce rates among the white and the black population in America. This is an improtant issue to be studied because a difference in divorce rates among different races would indicate that there might be some underlying socio-economic factors leading to increased divorce rates in a particular race. One could then investigate which socio-economic factors are affecting the race and take necessary steps in the right direction. Low divorce rates will result in an increase in social wellbeing.
 
@@ -231,7 +239,7 @@ ggplot(df, aes(race,Freq)) + geom_bar(aes(fill=status), width = 0.5, stat = "ide
 
 ![](inference-project_files/figure-markdown_github/unnamed-chunk-14-1.png)
 
-**Observations:**The barplot above has racial ethnicity on the x-axis and each bar has been segmented according to the divorce status. It is clearly visible that the proportion of divorce is higher among Blacks than the proportion of divorce among Whites.
+**Observations:** The barplot above has racial ethnicity on the x-axis and each bar has been segmented according to the divorce status. It is clearly visible that the proportion of divorce is higher among Blacks than the proportion of divorce among Whites.
 
 We will perform inference to test whether the divorce rates vary by ethnicity or the difference observed in the data was just because of chance.
 
@@ -293,7 +301,7 @@ inference(data$status, data$race, data, type="ht", statistic = "proportion", suc
     ## z = -9.0699
     ## p_value = < 0.0001
 
-![plot of chunk unnamed-chunk-14-1](inference-project_files/figure-markdown_github/unnamed-chunk-14-1.png)
+![plot of dist](inference-project_files/figure-markdown_github/dist.png)
 
 As the *p*-value is less than 0.05, we reject *H*<sub>0</sub>.
 
