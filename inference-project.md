@@ -258,15 +258,15 @@ Let,
 
 ### Hypothesis:
 
-![Null Hypoth] (https://latex.codecogs.com/gif.latex?%24H_0%3A%20p_w-p_b%3D0%24)
+![Null Hypoth](https://latex.codecogs.com/gif.latex?%24H_0%3A%20p_w-p_b%3D0%24)
 
-![Alt Hypoth] (https://latex.codecogs.com/gif.latex?%24H_A%3A%20p_w-p_b%20%5Cnot%3D0%24)
+![Alt Hypoth](https://latex.codecogs.com/gif.latex?%24H_A%3A%20p_w-p_b%20%5Cnot%3D0%24)
 
-*n*<sub>*w*</sub> = 38019, $\\hat{p}\_w=0.1501$
+![Whites](https://latex.codecogs.com/gif.latex?%24n_w%3D38019%2C%5C%3B%20%5Chat%7Bp%7D_w%3D0.1501%24)
 
-*n*<sub>*b*</sub> = 5407, $\\hat{p}\_b=0.1979$
+![Blacks](https://latex.codecogs.com/gif.latex?%24n_b%3D5407%2C%20%5C%3B%20%5Chat%7Bp%7D_b%3D0.1979%24)
 
-$p\_{pooled}=\\frac{5705+1070}{38019+5407}=0.1560$
+![Pooled Prop](https://latex.codecogs.com/gif.latex?p_%7Bpooled%7D%3D%5Cfrac%7B5705&plus;1070%7D%7B38019&plus;5407%7D%3D0.1560)
 
 ### Conditions:
 
@@ -274,11 +274,11 @@ To perform inference for two independent categorical variables the following two
 
 1.  **Success-Failure condition:**
 
-    *n*<sub>*w*</sub>*p*<sub>*p**o**o**l**e**d*</sub> = 5931 and *n*<sub>*w*</sub>(1 − *p*<sub>*p**o**o**l**e**d*</sub>)=32088
+    ![](https://latex.codecogs.com/gif.latex?%24%5C%3B%5C%3B%5C%3B%5C%3Bn_wp_%7Bpooled%7D%3D5931%24) and ![](https://latex.codecogs.com/gif.latex?%24n_w%281-p_%7Bpooled%7D%29%3D32088%24)
 
-    *n*<sub>*b*</sub>*p*<sub>*p**o**o**l**e**d*</sub> = 843 and *n*<sub>*b*</sub>(1 − *p*<sub>*p**o**o**l**e**d*</sub>)=4563.
+    ![](https://latex.codecogs.com/gif.latex?%24%5C%3B%5C%3B%5C%3B%5C%3Bn_bp_%7Bpooled%7D%3D843%24) and ![](https://latex.codecogs.com/gif.latex?%24n_b%281-p_%7Bpooled%7D%29%3D4563%24)
 
-As the success failure condition is met, the distribution of differences $\\hat{p}\_w-\\hat{p}\_b$ is nearly normal.
+As the success failure condition is met, the distribution of differences ![](https://latex.codecogs.com/gif.latex?%5Chat%7Bp%7D_w-%5Chat%7Bp%7D_b) is nearly normal.
 
 1.  **Independence:**
 
