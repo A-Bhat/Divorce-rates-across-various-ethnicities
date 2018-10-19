@@ -258,9 +258,9 @@ Let,
 
 ### Hypothesis:
 
-*H*<sub>0</sub> : *p*<sub>*w*</sub> − *p*<sub>*b*</sub> = 0
+![Null Hypoth] (https://latex.codecogs.com/gif.latex?%24H_0%3A%20p_w-p_b%3D0%24)
 
-$H\_A: p\_w-p\_b \\not=0$
+![Alt Hypoth] (https://latex.codecogs.com/gif.latex?%24H_A%3A%20p_w-p_b%20%5Cnot%3D0%24)
 
 *n*<sub>*w*</sub> = 38019, $\\hat{p}\_w=0.1501$
 
