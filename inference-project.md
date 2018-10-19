@@ -293,7 +293,7 @@ inference(data$status, data$race, data, type="ht", statistic = "proportion", suc
     ## z = -9.0699
     ## p_value = < 0.0001
 
-![](inference-project_files/figure-markdown_github/unnamed-chunk-15-1.png)
+![plot of chunk unnamed-chunk-2](inference-project_files/figure-markdown_github/unnamed-chunk-15-1.png)
 
 As the *p*-value is less than 0.05, we reject *H*<sub>0</sub>.
 
